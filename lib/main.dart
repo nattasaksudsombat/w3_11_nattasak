@@ -68,6 +68,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         Image.network(p.photo, width: 50, height: 50, fit: BoxFit.cover)
                     ),
                     DataCell(Text(p.name)),
+                    DataCell(Text(p.description)),
+                    DataCell(Text('${p.weight} บาท')),
+                    DataCell(Text(p.name)),
                     DataCell(Text('${p.price} บาท')),
                   ],
                 )).toList(),
